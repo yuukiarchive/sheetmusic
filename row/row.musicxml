@@ -293,11 +293,6 @@
       </note>
     </measure>
     <measure number="9">
-      <barline location="right">
-        <bar-style>light-heavy</bar-style>
-      </barline>
-    </measure>
-    <measure number="10">
       <direction placement="above">
         <direction-type>
           <metronome>
