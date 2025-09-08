@@ -8,9 +8,9 @@
   }
 
   \layout {
+    \autoBreaksOff
     indent = #0
     line-width = #120
-    \autoBreaksOff
   }
 
   \midi {
