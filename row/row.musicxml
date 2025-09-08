@@ -5,10 +5,8 @@
   <identification>
     <encoding>
       <software>python-ly 0.9.9</software>
-      <encoding-date>2025-09-08</encoding-date>
+      <encoding-date>2025-09-09</encoding-date>
     </encoding>
-    <indent />
-    <line-width />
   </identification>
   <part-list>
     <score-part id="P1">
@@ -291,23 +289,6 @@
         <type>half</type>
         <dot />
       </note>
-    </measure>
-    <measure number="9">
-      <barline location="right">
-        <bar-style>light-heavy</bar-style>
-      </barline>
-    </measure>
-    <measure number="10">
-      <direction placement="above">
-        <direction-type>
-          <metronome>
-            <beat-unit>quarter</beat-unit>
-            <beat-unit-dot />
-            <per-minute>108</per-minute>
-          </metronome>
-        </direction-type>
-        <sound tempo="162" />
-      </direction>
     </measure>
   </part>
 </score-partwise>
