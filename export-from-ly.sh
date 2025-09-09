@@ -5,7 +5,7 @@ input="${1%.ly}"
 # Exit on error
 set -e
 
-# Export to SVG and MIDI
+# Convert LilyPond to SVG and MIDI
 lilypond --svg -dcrop -dmidi-extension=mid "$input.ly"
 mv "$input.cropped.svg" "$input.svg"
 
