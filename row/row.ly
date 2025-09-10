@@ -1,5 +1,14 @@
 \version "2.24.4"
 
+\header {
+  title = "Row, Row, Row Your Boat"
+}
+
+\paper {
+  indent = #0
+  line-width = #120
+}
+
 \score {
   <<
   \chords {
@@ -16,8 +25,6 @@
   \layout {
     \autoBreaksOff
     \numericTimeSignature
-    indent = #0
-    line-width = #120
   }
 
   \midi {
