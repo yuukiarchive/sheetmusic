@@ -3,8 +3,8 @@
 \score {
   <<
   \chords {
-    c2. | s2.*3 |
-    c2. | s2. | g2. | c2.
+    c,2.*4 |
+    c,2.*2 | g,2. | c,2.
   }
   \relative c' {
     \time 6/8
@@ -15,6 +15,7 @@
 
   \layout {
     \autoBreaksOff
+    \numericTimeSignature
     indent = #0
     line-width = #120
   }
