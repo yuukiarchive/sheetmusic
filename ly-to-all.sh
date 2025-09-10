@@ -22,4 +22,4 @@ rm "$input.wav"
 
 # Convert LilyPond to MusicXML (extracting only the `\relative` block)
 python3 -c 'import re, sys; print(re.search(r"\\relative.*?{.*?}", open(sys.argv[1]).read(), re.DOTALL).group(0))' "$input.ly" \
-| ly musicxml > "$input.musicxml"
+| ly musicxml -d 'backup-suffix=' -o "$input.musicxml"
