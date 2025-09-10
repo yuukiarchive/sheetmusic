@@ -1,12 +1,12 @@
 \version "2.24.4"
 
-\header {
-  title = "Twinkle, Twinkle, Little Star"
-}
-
 \paper {
   indent = #0
   line-width = #120
+}
+
+\header {
+  title = "Twinkle, Twinkle, Little Star"
 }
 
 \score {
