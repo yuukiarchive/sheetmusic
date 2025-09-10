@@ -16,7 +16,7 @@ rsvg-convert -b white -f svg -o "$input.svg" "$input.svg"
 fluidsynth -ni "$soundfont" "$input.mid" -F "$input.wav"
 
 # Convert WAV to WebM
-ffmpeg -y -f lavfi -i 'color=c=black:s=320x180' -i "$input.wav" -c:v libvpx-vp9 -c:a libopus -shortest -pix_fmt yuv420p "$input.webm"
+ffmpeg -y -f lavfi -i 'color=c=black:s=320x180' -i "$input.wav" -c:v libvpx-vp9 -c:a libopus -af 'silenceremove=stop_periods=1:stop_threshold=-50dB' -shortest -pix_fmt yuv420p "$input.webm"
 
 rm "$input.wav"
 
